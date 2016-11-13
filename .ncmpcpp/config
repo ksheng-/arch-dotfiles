@@ -1,0 +1,86 @@
+#
+# ncmpcpp config
+#
+
+display_bitrate = "yes"
+
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_music_dir = "/media/Media/Users/Kevin/Music"
+mpd_crossfade_time = "5"
+
+# Visualizer
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "fifo"
+visualizer_type = "wave" (spectrum/wave)
+
+# Playlist
+song_list_format = "{$7%l} {$5%a} $2» {$8%t}|{$5%f}$R{$4%b}"
+song_columns_list_format = "(6f)[cyan]{l} (40)[default]{t|f} (25)[yellow]{a} (30)[blue]{b}"
+#alternative_header_first_line_format = "{$b$1%t$9$/b}"
+alternative_header_second_line_format ="$5{%a}$9 $8-$9 $4{%b}$9"
+now_playing_prefix = "$b"
+now_playing_suffix = "$/b"
+playlist_display_mode = "classic" (classic/columns)
+autocenter_mode = "yes"
+centered_cursor = "yes"
+visualizer_look = "•▋"
+
+# Bars
+song_status_format = "$8%t $1• $2%a $1•{ $5%b $1• }$7%y$1"
+progressbar_look = "─╼╌"
+titles_visibility = "no"
+header_visibility = "no"
+
+# Browser
+browser_playlist_prefix = "$2plist »$9 "
+browser_display_mode = "classic" (classic/columns)
+
+# Colors
+discard_colors_if_item_is_selected = "yes"
+header_window_color = "white"
+volume_color = "cyan"
+state_line_color = "red"
+state_flags_color = "red"
+main_window_color = "white"
+color1 = "white"
+color2 = "blue"
+main_window_highlight_color = "blue"
+progressbar_color = "red"
+statusbar_color = "white"
+active_column_color = "yellow"
+visualizer_color = "blue"
+
+# Others
+song_window_title_format = "MPD: {%a > }{%t}{ [%b{ Disc %d}]}|{%f}"
+search_engine_display_mode = "classic" (classic/columns)
+follow_now_playing_lyrics = "yes"
+user_interface = "alternative"
+
+## %l - length
+## %f - filename
+## %D - directory
+## %a - artist
+## %A - album artist
+## %t - title
+## %b - album
+## %y - year
+## %n - track number (01/12 -> 01)
+## %N - full track info (01/12 -> 01/12)
+## %g - genre
+## %c - composer
+## %p - performer
+## %d - disc
+## %C - comment
+## $R - begin right alignment
+
+## - 0 - default window color (discards all other colors)
+## - 1 - black
+## - 2 - red
+## - 3 - green
+## - 4 - yellow
+## - 5 - blue
+## - 6 - magenta
+## - 7 - cyan
+## - 8 - white
+## - 9 - end of current color

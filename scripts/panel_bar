@@ -1,0 +1,110 @@
+#!/bin/sh
+
+
+color00="#2b303b" # Base 00 - Black
+color01="#bf616a" # Base 08 - Red
+color02="#a3be8c" # Base 0B - Green
+color03="#ebcb8b" # Base 0A - Yellow
+color04="#8fa1b3" # Base 0D - Blue
+color05="#b48ead" # Base 0E - Magenta
+color06="#96b5b4" # Base 0C - Cyan
+color07="#e0e5ee" # Base 05 - White
+color08="#65737e" # Base 03 - Bright Black
+color15="#eff1f5" # Base 07 - Bright White
+color16="#d08770" # Base 09 - Orange
+color17="#ab7967" # Base 0F - Brown
+color18="#343d46" # Base 01
+color19="#4f5b66" # Base 02
+color20="#a7adba" # Base 04
+color21="#dfe1e8" # Base 06
+BG="#772b303b"
+
+
+clock(){
+	CLK=$(date '+%l:%M %p')
+	echo -n "%{B$color01}  $CLK  %{B-}"
+}
+
+battery(){
+	BAT=$(acpi --battery | cut -d, -f2 | tr -d ' %')
+	BATSTAT=$(acpi --battery | cut -d ' ' -f3 | tr -d ' ,')
+	if [ "$BATSTAT" = "Charging" ]; then
+		echo -n "%{F$color06}%{F$color02} $BAT%{F-}"
+	elif [ $BAT -gt 80 ]; then
+    	echo -n "%{F$color06}%{F-} $BAT"; 
+	elif [ $BAT -gt 50 ]; then
+    	echo -n "%{F$color06}%{F-} $BAT"; 
+	elif [ $BAT -gt 10 ]; then
+    	echo -n "%{F$color06}%{F-} $BAT"; 
+	else
+    	echo -n "%{F$color06}%{F$color01} $BAT%{F-}"
+	fi
+}
+
+volume(){
+    VOLSTAT=$(amixer -D pulse get Master | tail -n 1 | cut -d'[' -f3 | sed 's/].*//g')
+    VOL=$(amixer -D pulse get Master | tail -n 1 | cut -d'[' -f2 | sed 's/%.*//g')
+    if [ "$VOLSTAT" = "off" ]; then
+    	echo -n "%{F$color06} %{F-}%{F$color01}$VOL%{F-}"
+    elif [ "$VOL" = "0" ]; then
+    	echo -n "%{F$color06} %{F-}$VOL"
+    else
+        echo -n "%{F$color06} %{F-}$VOL"
+    fi
+} 
+
+cpu(){
+	CPU=$(mpstat | awk '$12 ~ /[0-9.]+/ { printf("%.2f\n", 100 - $13) }')
+	echo -n "%{F$color06} %{F-}$CPU"
+}
+
+memory(){
+	MEM=$(free -m | grep 'Mem' | awk '{print $3}')
+	echo -n "%{F$color06} %{F-}$MEM"
+}
+
+workspace() {
+	active="%{B$color07}%{F$color01}"
+	inactive="%{B$color01}%{F$color07}"
+	WORKSPACE=$(bspc query -D -d);
+	WORKSPACE_LIST=$(bspc query -D)
+	for ws in $WORKSPACE_LIST; do
+	    if [ "$ws" = "$WORKSPACE" ]; then
+	        echo -n "$active  $ws  "  
+	    else
+	        echo -n "$inactive  $ws  "  
+	    fi
+	done 
+}
+
+nowplaying(){
+	MPD=`mpc current`
+	test -n "$MPD" && echo -n "%{F$color06}  %{F-}$MPD" || echo -n "%{F$color06} %{F-}[STOPPED]"
+}
+
+title(){
+	TITLE=$(xtitle)
+	test -n "$TITLE" && echo -n "%{B$color18}%{F$color06}   $TITLE   %{B-}%{F-}" || echo -n "%{B-}%{F-}"
+}
+
+network(){
+	SSID=$(iwgetid | cut -d'"' -f2)
+	SIG=$(iwconfig wlp3s0 | grep -w Signal | cut -d'=' -f3 | sed 's/[A-Za-z-]*//g')
+	CON=$(iwgetid | cut -d' ' -f1)
+		if [ "$CON" = "enp4s0f1" ]; then
+	        NET="" 
+	    elif [ "$SIG" -lt "60" ]; then
+	        NET="" 
+    	elif [ "$SIG" -lt "70" ]; then
+        	NET="" 
+	    else
+	        NET="" 
+	    fi
+	test -n "$NET" && echo -n "%{F$color06}$NET %{F-}$SSID" || echo -n "%{F$color06} %{F-} --"
+}
+
+
+while true; do
+	echo "%{Sl}%{l}$(workspace)$(title)%{r}   $(nowplaying)  $(volume)  $(cpu)  $(memory)  $(network)  $(battery)  $(clock)"
+	sleep .2
+done

@@ -1,0 +1,18 @@
+#! /bin/sh
+
+if [ $(pgrep -cx panel) -gt 1 ] ; then
+	printf "%s\n" "The panel is already running." >&2
+	exit 1
+fi
+
+trap 'trap - TERM; kill 0' INT TERM QUIT EXIT
+
+[ -e "$PANEL_FIFO" ] && rm "$PANEL_FIFO"
+mkfifo "$PANEL_FIFO"
+
+bspc config top_padding $PANEL_HEIGHT
+bspc control --subscribe > "$PANEL_FIFO" &
+
+
+cat "$PANEL_FIFO" | panel_bar | lemonbar -g x24 -f "-*-terminus-medium-r-normal-*-12-*-*-*-c-*-iso10646-1" -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1' -B "#FF2b303b" -F "#FFc0c5ce" -p &
+wait 

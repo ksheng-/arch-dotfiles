@@ -1,0 +1,1115 @@
+{
+	"folder_history":
+	[
+		"/home/sheng/Programming/dsa_p1_sheng",
+		"/home/sheng/Programming/dsa_p2_sheng",
+		"/home/sheng/Programming/ece305_ps7",
+		"/home/sheng/Programming/DSA Program 1"
+	],
+	"last_version": 3126,
+	"last_window_id": 13,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 380.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 457.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/sheng/Programming/dsa_p2_sheng/Radix.ncb",
+				"/home/sheng/Programming/dsa_p2_sheng/Radix.dsw",
+				"/home/sheng/Programming/dsa_p2_sheng/main.cc",
+				"/home/sheng/Programming/dsa_p2_sheng/Radix.dsp",
+				"/home/sheng/Programming/dsa_p2_sheng/T1.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/T3.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/T4.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/sampleT1s.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/main",
+				"/home/sheng/Programming/dsa_p2_sheng/sampleT1.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/t3.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/t3s.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/t4.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/grouped",
+				"/home/sheng/Programming/dsa_p2_sheng/gord",
+				"/home/sheng/Programming/dsa_p2_sheng/test",
+				"/tmp/mozilla_sheng0/a-1.out",
+				"/tmp/mozilla_sheng0/a.out",
+				"/home/sheng/Programming/dsa_p2_sheng/t4s.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/tests",
+				"/home/sheng/Programming/dsa_p2_sheng/sorted.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/callgrind.out.17795",
+				"/home/sheng/Programming/dsa_p2_sheng/callgrind.out.15588",
+				"/tmp/mozilla_sheng0/generate.cpp",
+				"/home/sheng/Programming/dsa_p2_sheng/callgrind.out.13793",
+				"/home/sheng/Programming/dsa_p2_sheng/filegen.cc",
+				"/home/sheng/Programming/dsa_p2_sheng/providedCode.cpp",
+				"/tmp/mozilla_sheng0/providedCode.cpp",
+				"/home/sheng/.config/zathura/zathurarc",
+				"/home/sheng/Programming/dsa_p2_sheng/outfile1.txt",
+				"/home/sheng/Programming/ece305_ps7/users..txt",
+				"/home/sheng/Programming/ece305_ps7/ece305_ps7.py",
+				"/home/sheng/Programming/ece305_ps7/users.txt",
+				"/home/sheng/Programming/ece305_ps7/newuser.py",
+				"/home/sheng/Programming/ece305_ps7.py",
+				"/home/sheng/Programming/DSA Program 1/stack.h",
+				"/home/sheng/Programming/DSA Program 1/simplelist.h",
+				"/home/sheng/Programming/DSA Program 1/queue.h",
+				"/tmp/mozilla_sheng0/SimpleList.cpp",
+				"/home/sheng/Programming/DSA Program 1/main.cc",
+				"/home/sheng/Programming/DSA Program 1/output.txt",
+				"/home/sheng/Programming/DSA Program 1/out.txt",
+				"/home/sheng/Programming/DSA Program 1/in.txt",
+				"/home/sheng/Programming/DSA Program 1/simplelist.h.old",
+				"/home/sheng/Programming/DSA Program 1/main.cpp",
+				"/mnt/Media/Users/Kevin/Documents/Arduino/irtemp/analog_output.ino/analog_output.ino.ino",
+				"/mnt/Media/Users/Kevin/Documents/Arduino/irtemp/pwm_output.ino/pwm_output.ino.ino",
+				"/mnt/Media/Users/Kevin/Documents/Arduino/irtemp/sensorsetup/sensorsetup.ino",
+				"/home/sheng/.config/bspwm/bspwmrc",
+				"/tmp/mozilla_sheng0/class04.m",
+				"/home/sheng/scripts/panel_bar",
+				"/home/sheng/Downloads/Class05/Class05.m",
+				"/home/sheng/dotfiles/scripts/panel_bar",
+				"/home/sheng/Downloads/Lecture2/Class02.m",
+				"/tmp/mozilla_sheng0/Class01.m",
+				"/home/sheng/Downloads/Class07.m",
+				"/tmp/mozilla_sheng0/Class07-1.m",
+				"/tmp/mozilla_sheng0/Class07.m",
+				"/tmp/mozilla_sheng0/Audio.zip",
+				"/etc/modprobe.d/modprobe.conf",
+				"/home/sheng/scripts/panel",
+				"/home/sheng/dotfiles/scripts/panel",
+				"/home/sheng/ECE305_PS4_pubkey.pem",
+				"/home/sheng/ECE305_PS4.txt",
+				"/home/sheng/.livestreamerrc",
+				"/home/sheng/.config/mpv/mpv.conf",
+				"/home/sheng/Downloads/dotfiles/.mpv/config",
+				"/home/sheng/Downloads/lecture-u04.ps",
+				"/home/sheng/compsec/PS4_key_decrypt_hex",
+				"/home/sheng/compsec/ECE305_PS3.txt",
+				"/home/sheng/compsec/test_message",
+				"/home/sheng/compsec/PS4_msg_decrypt_n",
+				"/home/sheng/compsec/PS4_msg_decrypt",
+				"/home/sheng/compsec/PS4_msg_decrypt_hex",
+				"/home/sheng/compsec/PS4_iv_decrypt_hex",
+				"/home/sheng/ECE305_PS3.txt",
+				"/home/sheng/Downloads/pset-u04.ps",
+				"/home/sheng/.config/sxhkd/sxhkdrc",
+				"/home/sheng/matlab/KevinSheng_HW5/@mydate/mydate.m",
+				"/home/sheng/sheng-ciphertext",
+				"/home/sheng/compsec/PS4_msg",
+				"/tmp/mozilla_sheng0/pset-u04.ps",
+				"/home/sheng/matlab/KevinSheng_HW5/@mydate/yesterday.m",
+				"/home/sheng/matlab/KevinSheng_HW5/@mydate/rollBack.asv",
+				"/home/sheng/compsec-aes",
+				"/home/sheng/sheng2-cipertext",
+				"/home/sheng/sheng2-ciphertext",
+				"/home/sheng/sheng-ciphertextbin",
+				"/home/sheng/sheng-ciphertext.bin",
+				"/tmp/mozilla_sheng0/Class03.m",
+				"/home/sheng/IEEE_ACM_021616.txt",
+				"/home/sheng/IEEE_ACM_021616",
+				"/tmp/mozilla_sheng0/IEEE_ACM_021616.jpg",
+				"/home/sheng/.zshrc",
+				"/home/sheng/.config/mpd/mpd.conf",
+				"/home/sheng/dotfiles/.mpd/mpd.conf",
+				"/home/sheng/matlab/KevinSheng_HW1.m",
+				"/tmp/mozilla_sheng0/Matthew_Cavallaro_Ece110B_Assignment2.m",
+				"/home/sheng/.ncmpcpp/config",
+				"/home/sheng/Downloads/matlab/readme.txt",
+				"/home/sheng/.xprofile",
+				"/home/sheng/dotfiles/.config/sxhkd/sxhkdrc",
+				"/home/sheng/dotfiles/.config/bspwm/bspwmrc",
+				"/etc/zsh/zprofile",
+				"/home/sheng/scripts/mpdpanel",
+				"/home/sheng/.Xresources",
+				"/home/sheng/dotfiles/.Xresources",
+				"/home/sheng/dotfiles/.zshrc",
+				"/home/sheng/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"tag2",
+					"1.687",
+					"999999",
+					"1.687",
+					"cout",
+					"insertionSortT4",
+					"wordsBy",
+					"arr",
+					"buckets",
+					"approx",
+					"stoi",
+					"new",
+					"cout",
+					"new",
+					"a",
+					"std::",
+					">",
+					"Comparable",
+					"if(",
+					"for(",
+					"& ",
+					"std::",
+					"[ ",
+					" ]",
+					" )",
+					"( ",
+					"quick",
+					"& ",
+					" ]",
+					"[ ",
+					" )",
+					"( ",
+					"Quick",
+					"& ",
+					"std::",
+					"if(",
+					" ]",
+					"[ ",
+					" )",
+					"( ",
+					"Comparable",
+					"quick",
+					"double",
+					"outfile1",
+					"\t",
+					"listSLi",
+					"parseInput",
+					"//",
+					"asdf",
+					"cout",
+					"return",
+					"listSLi",
+					"push",
+					"pop",
+					"push",
+					"\"\"",
+					"command",
+					"delete",
+					"case",
+					"++",
+					"slCreate",
+					"listPush",
+					"listCreate",
+					"substr",
+					"getName",
+					"name",
+					"getname",
+					"execCommand",
+					"Object",
+					"T",
+					"Object",
+					"process",
+					"if",
+					"searchlist",
+					"size",
+					"compare",
+					"findlist",
+					"string",
+					"end",
+					"start",
+					"remove",
+					"insert",
+					"theSize",
+					"begin",
+					"prev",
+					"current",
+					", ",
+					" )",
+					"( ",
+					" }",
+					"{ ",
+					"( )",
+					"color06",
+					"echo -n",
+					"grep",
+					"cast",
+					"string",
+					"method",
+					"private",
+					"classdef",
+					"filter",
+					"subplot",
+					"filter",
+					" ",
+					":",
+					" ",
+					"append",
+					"imagi",
+					"imagin",
+					"square",
+					"multipl",
+					"max",
+					"rep",
+					"print"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": true,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 115.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "matlab Um-deedledeedledeedle um-deedleday\nUm-deedledeedledeedle um-deedleday\nUm-deedledeedledeedle um-deedledeedle\nUm-deedledeedledeedle um-um um-um um-um\n\nFor example...\n\nSupercalifragilisticexpialidocious\nEven though the sound of it is something quite atrocious\nIf you say it loud enough you'll always sound precocious\nSupercalifragilisticexpialidocious\n\nUm-deedledeedledeedle um-deedleday\nUm-deedledeedledeedle um-deedleday\nUm-deedledeedledeedle um-deedleday\n\nSuper-super\nSupercali\nSuper Supercalifragi\n\nSo when the cat has got your tongue there's no need for dismay\nJust summon up this word and then you've got a lot to say\nBut better use it carefully or it can change your life\n\nFor example...\n\nYes?\n\nOne day I said it to me girl and now me girl's me wife\n\nSupercalifragilisticexpialidocious\nEven though the sound of it is something quite atrocious\nIf you say it loud enough you'll always sound precocious\nSupercalifragilisticexpialidocious\n\nSupercalifragilisticexpialidocious\nEven though the sound of it is something quite atrocious\nIf you say it loud enough you'll always sound precocious\nSupercalifragilisticexpialidocious\n\nSupercalifragilisticexpialidocious\nEven though the sound of it is something quite atrocious\nIf you say it loud enough you'll always sound precocious\nSupercalifragilistic\nSupercalifragilistic\nSupercalifragilisticexpialidocious\n@#world\nasdjbaskldjbasd\n&^*%&*^%\nwor987ld\nwor*&(*&)d\ns\nd\nf\n6*&^() *&(^(*&^)) world&*()",
+					"file": "/home/sheng/Programming/dsa2/p1/lyrics.txt",
+					"file_size": 1437,
+					"file_write_time": 131194981553926393,
+					"settings":
+					{
+						"buffer_size": 1444,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheng/Programming/os/PS2/output.txt",
+					"settings":
+					{
+						"buffer_size": 6811,
+						"encoding": "UTF-8",
+						"line_ending": "Unix",
+						"name": "sartoris% find ~/Programming/os/PS2/test -ls"
+					}
+				},
+				{
+					"file": "/home/sheng/Programming/dsa2/p2/heap.h",
+					"settings":
+					{
+						"buffer_size": 1883,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheng/Programming/dsa1/dsa_p1_sheng/stack.h",
+					"settings":
+					{
+						"buffer_size": 539,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheng/Programming/dsa2/p2/sr",
+					"settings":
+					{
+						"buffer_size": 5336,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheng/Programming/os/PS2/walker.c",
+					"settings":
+					{
+						"buffer_size": 6665,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheng/Programming/os/PS1/copycat.c",
+					"settings":
+					{
+						"buffer_size": 3101,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/sheng/Programming/dsa2/p2/ece365_useHeap_SR.txt",
+					"settings":
+					{
+						"buffer_size": 5336,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 380.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 457.0
+			},
+			"console":
+			{
+				"height": 126.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/sheng/Programming/dsa2/p2/sample",
+				"/home/sheng/Programming/dsa1/dsa_p1_sheng/simplelist.h",
+				"/home/sheng/Downloads/STM32MatTarget_4.4.0_setup.exe",
+				"/home/sheng/resume/resume.tex",
+				"/home/sheng/Programming/dsa2/p1/hash.h",
+				"/home/sheng/Programming/dsa2/p1/MYOUT_lyrics_small.txt",
+				"/home/sheng/Programming/dsa2/p1/asdf3",
+				"/home/sheng/Downloads/Class06.m",
+				"/home/sheng/Programming/dsa2/p1/asdf4",
+				"/home/sheng/Programming/dsa2/p1/Makefile",
+				"/home/sheng/Programming/dsa2/p1/hash.cpp",
+				"/home/sheng/Programming/dsa1/dsa_p1_sheng/stack.h",
+				"/home/sheng/Programming/dsa1/dsa_p2_sheng/main.cc",
+				"/home/sheng/Programming/dsa1/dsa_p1_sheng/main.cc",
+				"/home/sheng/Programming/dsa2/p1/wordlist_small",
+				"/tmp/mozilla_sheng0/gnuarmeclipse-openocd-debian64-0.10.0-201601101000-dev.tgz",
+				"/home/sheng/Programming/dsa2/p1/asdf",
+				"/home/sheng/Programming/dsa_p2_sheng/databases_notes",
+				"/tmp/mozilla_sheng0/hash-1.h",
+				"/tmp/mozilla_sheng0/hash.h",
+				"/home/sheng/Programming/ECE357/PS1/writeup.txt",
+				"/home/sheng/Programming/ECE357/PS1/out",
+				"/home/sheng/Programming/ECE357/PS1/file",
+				"/home/sheng/Programming/dsa_p2_sheng/t3s.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/dsa2_notes",
+				"/var/log/Xorg.0.log",
+				"/home/sheng/Programming/dsa_p2_sheng/t2s.txt",
+				"/tmp/mozilla_sheng0/template.tex",
+				"/home/sheng/resume.tex",
+				"/home/sheng/Programming/dsa_p2_sheng/resume.tex",
+				"/etc/X11/xorg.conf",
+				"/home/sheng/Programming/dsa_p2_sheng/main.cc",
+				"/home/sheng/.profile",
+				"/home/sheng/.xprofile",
+				"/home/sheng/.zshrc",
+				"/home/sheng/.config/Trolltech.conf",
+				"/home/sheng/Programming/dsa_p2_sheng/t3.txt",
+				"/tmp/mozilla_sheng0/flashsort.cpp",
+				"/home/sheng/Programming/dsa_p2_sheng/grouped",
+				"/home/sheng/Programming/dsa_p2_sheng/Radix.ncb",
+				"/home/sheng/Programming/dsa_p2_sheng/Radix.dsw",
+				"/home/sheng/Programming/dsa_p2_sheng/Radix.dsp",
+				"/home/sheng/Programming/dsa_p2_sheng/T1.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/T3.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/T4.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/sampleT1s.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/main",
+				"/home/sheng/Programming/dsa_p2_sheng/sampleT1.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/t4.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/gord",
+				"/home/sheng/Programming/dsa_p2_sheng/test",
+				"/tmp/mozilla_sheng0/a-1.out",
+				"/tmp/mozilla_sheng0/a.out",
+				"/home/sheng/Programming/dsa_p2_sheng/t4s.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/tests",
+				"/home/sheng/Programming/dsa_p2_sheng/sorted.txt",
+				"/home/sheng/Programming/dsa_p2_sheng/callgrind.out.17795",
+				"/home/sheng/Programming/dsa_p2_sheng/callgrind.out.15588",
+				"/tmp/mozilla_sheng0/generate.cpp",
+				"/home/sheng/Programming/dsa_p2_sheng/callgrind.out.13793",
+				"/home/sheng/Programming/dsa_p2_sheng/filegen.cc",
+				"/home/sheng/Programming/dsa_p2_sheng/providedCode.cpp",
+				"/tmp/mozilla_sheng0/providedCode.cpp",
+				"/home/sheng/.config/zathura/zathurarc",
+				"/home/sheng/Programming/dsa_p2_sheng/outfile1.txt",
+				"/home/sheng/Programming/ece305_ps7/users..txt",
+				"/home/sheng/Programming/ece305_ps7/ece305_ps7.py",
+				"/home/sheng/Programming/ece305_ps7/users.txt",
+				"/home/sheng/Programming/ece305_ps7/newuser.py",
+				"/home/sheng/Programming/ece305_ps7.py",
+				"/home/sheng/Programming/DSA Program 1/stack.h",
+				"/home/sheng/Programming/DSA Program 1/simplelist.h",
+				"/home/sheng/Programming/DSA Program 1/queue.h",
+				"/tmp/mozilla_sheng0/SimpleList.cpp",
+				"/home/sheng/Programming/DSA Program 1/main.cc",
+				"/home/sheng/Programming/DSA Program 1/output.txt",
+				"/home/sheng/Programming/DSA Program 1/out.txt",
+				"/home/sheng/Programming/DSA Program 1/in.txt",
+				"/home/sheng/Programming/DSA Program 1/simplelist.h.old",
+				"/home/sheng/Programming/DSA Program 1/main.cpp",
+				"/mnt/Media/Users/Kevin/Documents/Arduino/irtemp/analog_output.ino/analog_output.ino.ino",
+				"/mnt/Media/Users/Kevin/Documents/Arduino/irtemp/pwm_output.ino/pwm_output.ino.ino",
+				"/mnt/Media/Users/Kevin/Documents/Arduino/irtemp/sensorsetup/sensorsetup.ino",
+				"/home/sheng/.config/bspwm/bspwmrc",
+				"/tmp/mozilla_sheng0/class04.m",
+				"/home/sheng/scripts/panel_bar",
+				"/home/sheng/Downloads/Class05/Class05.m",
+				"/home/sheng/dotfiles/scripts/panel_bar",
+				"/home/sheng/Downloads/Lecture2/Class02.m",
+				"/tmp/mozilla_sheng0/Class01.m",
+				"/home/sheng/Downloads/Class07.m",
+				"/tmp/mozilla_sheng0/Class07-1.m",
+				"/tmp/mozilla_sheng0/Class07.m",
+				"/tmp/mozilla_sheng0/Audio.zip",
+				"/etc/modprobe.d/modprobe.conf",
+				"/home/sheng/scripts/panel",
+				"/home/sheng/dotfiles/scripts/panel",
+				"/home/sheng/ECE305_PS4_pubkey.pem",
+				"/home/sheng/ECE305_PS4.txt",
+				"/home/sheng/.livestreamerrc",
+				"/home/sheng/.config/mpv/mpv.conf",
+				"/home/sheng/Downloads/dotfiles/.mpv/config",
+				"/home/sheng/Downloads/lecture-u04.ps",
+				"/home/sheng/compsec/PS4_key_decrypt_hex",
+				"/home/sheng/compsec/ECE305_PS3.txt",
+				"/home/sheng/compsec/test_message",
+				"/home/sheng/compsec/PS4_msg_decrypt_n",
+				"/home/sheng/compsec/PS4_msg_decrypt",
+				"/home/sheng/compsec/PS4_msg_decrypt_hex",
+				"/home/sheng/compsec/PS4_iv_decrypt_hex",
+				"/home/sheng/ECE305_PS3.txt",
+				"/home/sheng/Downloads/pset-u04.ps",
+				"/home/sheng/.config/sxhkd/sxhkdrc",
+				"/home/sheng/matlab/KevinSheng_HW5/@mydate/mydate.m",
+				"/home/sheng/sheng-ciphertext",
+				"/home/sheng/compsec/PS4_msg",
+				"/tmp/mozilla_sheng0/pset-u04.ps",
+				"/home/sheng/matlab/KevinSheng_HW5/@mydate/yesterday.m",
+				"/home/sheng/matlab/KevinSheng_HW5/@mydate/rollBack.asv",
+				"/home/sheng/compsec-aes",
+				"/home/sheng/sheng2-cipertext",
+				"/home/sheng/sheng2-ciphertext",
+				"/home/sheng/sheng-ciphertextbin",
+				"/home/sheng/sheng-ciphertext.bin",
+				"/tmp/mozilla_sheng0/Class03.m",
+				"/home/sheng/IEEE_ACM_021616.txt",
+				"/home/sheng/IEEE_ACM_021616",
+				"/tmp/mozilla_sheng0/IEEE_ACM_021616.jpg"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"new",
+					"lessThan",
+					"bool",
+					"FALSE",
+					"\\h1",
+					"Hello",
+					"heloo",
+					"\\h",
+					"picture",
+					"std::",
+					" )",
+					"( ",
+					"stof",
+					"stoi",
+					"stof",
+					"stoi",
+					"substr",
+					"stof",
+					"stoi",
+					"std::",
+					" ]",
+					"[ ",
+					" )",
+					"( ",
+					"Comparable",
+					"list",
+					"sortData",
+					"sort",
+					"sortData",
+					"101485566924505",
+					"else",
+					"tag2",
+					"1.687",
+					"999999",
+					"1.687",
+					"cout",
+					"insertionSortT4",
+					"wordsBy",
+					"arr",
+					"buckets",
+					"approx",
+					"stoi",
+					"new",
+					"cout",
+					"new",
+					"a",
+					"std::",
+					">",
+					"Comparable",
+					"if(",
+					"for(",
+					"& ",
+					"std::",
+					"[ ",
+					" ]",
+					" )",
+					"( ",
+					"quick",
+					"& ",
+					" ]",
+					"[ ",
+					" )",
+					"( ",
+					"Quick",
+					"& ",
+					"std::",
+					"if(",
+					" ]",
+					"[ ",
+					" )",
+					"( ",
+					"Comparable",
+					"quick",
+					"double",
+					"outfile1",
+					"\t",
+					"listSLi",
+					"parseInput",
+					"//",
+					"asdf",
+					"cout",
+					"return",
+					"listSLi",
+					"push",
+					"pop",
+					"push",
+					"\"\"",
+					"command",
+					"delete",
+					"case",
+					"++",
+					"slCreate",
+					"listPush",
+					"listCreate",
+					"substr",
+					"getName",
+					"name",
+					"getname",
+					"execCommand",
+					"Object",
+					"T",
+					"Object",
+					"process",
+					"if",
+					"searchlist",
+					"size",
+					"compare",
+					"findlist",
+					"string",
+					"end",
+					"start",
+					"remove",
+					"insert",
+					"theSize",
+					"begin",
+					"prev",
+					"current",
+					", ",
+					" )",
+					"( ",
+					" }",
+					"{ ",
+					"( )",
+					"color06",
+					"echo -n",
+					"grep",
+					"cast",
+					"string"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 6,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/sheng/Programming/dsa2/p1/lyrics.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1444,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										7,
+										7
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/sheng/Programming/os/PS2/output.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6811,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1428,
+										1428
+									]
+								],
+								"settings":
+								{
+									"auto_name": "sartoris% find ~/Programming/os/PS2/test -ls",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/sheng/Programming/dsa2/p2/heap.h",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1883,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/sheng/Programming/dsa1/dsa_p1_sheng/stack.h",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 539,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C++.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/sheng/Programming/dsa2/p2/sr",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5336,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4437,
+										4437
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2640.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/sheng/Programming/os/PS2/walker.c",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6665,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5543,
+										5543
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/sheng/Programming/os/PS1/copycat.c",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3101,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3077,
+										2950
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/C++/C.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1152.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/sheng/Programming/dsa2/p2/ece365_useHeap_SR.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5336,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1876,
+										1876
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2400.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,1932,36,2904,1180,3840,1200",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 115.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 6,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

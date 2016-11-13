@@ -1,0 +1,9 @@
+#!/bin/bash
+
+nowplaying(){
+	cur=`mpc current`
+	test -n "$cur" && echo $cur || echo "stopped"
+}
+
+echo $(nowplaying);
+
