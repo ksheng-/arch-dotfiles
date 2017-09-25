@@ -66,8 +66,8 @@ memory(){
 workspace() {
 	active="%{B$color07}%{F$color01}"
 	inactive="%{B$color01}%{F$color07}"
-	WORKSPACE=$(bspc query -D -d);
-	WORKSPACE_LIST=$(bspc query -D)
+	WORKSPACE=$(bspc query -D -d --names)
+	WORKSPACE_LIST=$(bspc query -D --names)
 	for ws in $WORKSPACE_LIST; do
 	    if [ "$ws" = "$WORKSPACE" ]; then
 	        echo -n "$active  $ws  "  

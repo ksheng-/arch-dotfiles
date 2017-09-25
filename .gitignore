@@ -1,0 +1,10 @@
+*
+!.gitignore
+!.vimrc
+!.config/bspwm/bspwmrc
+!.config/sxhkd/sxhkdrc
+!.mpd
+
+!.zshrc
+!.Xresources
+!scripts/

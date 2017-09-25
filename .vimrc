@@ -3,12 +3,15 @@ call plug#begin('~/.vim/bundle')
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-sensible'
 Plug 'chriskempson/base16-vim'
+Plug 'vim-scripts/AddIfndefGuard'
 
 call plug#end()
 
+set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set rnu
 set number
 set visualbell
 set wildmode=longest,list
